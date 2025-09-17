@@ -1,0 +1,7 @@
+package com.app.todoapp.repository;
+// it will do the job of interfacing to the database
+import com.app.todoapp.models.Task;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface TaskRepository extends JpaRepository<Task, Long> {
+}
